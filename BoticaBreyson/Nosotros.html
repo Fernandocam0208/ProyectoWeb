@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logopequeño.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/stylenosotros.css">
+    <script src="js/estilos.js" async></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>INKAFARMA | PRECIOS MAS BAJOS</title>
+    <meta name="description" content="INKAFARMA, precios bajos para cuidar tu salud.">
+</head>
+
+<body>
+    <header>
+        <div class="container-hero">
+            <div class="container hero">
+                <div class="customer-support">
+                    <i class="fa-solid fa-headset"></i>
+                    <div class="content-customer-support">
+                        <span class="text">Soporte al cliente</span>
+                        <span class="number">123-456-7890</span>
+                    </div>
+                </div>
+
+                <div class="container-logo">
+                    <h1 class="logo"><a href="/">Salud Medic</a></h1>
+                </div>
+
+                <div class="container-user">
+                    <i class="fa-solid fa-user"></i>
+                    <i class="fa-solid fa-basket-shopping" id="abrir-carrito"></i>
+                    <div class="content-shopping-cart">
+                        <span class="text">Carrito</span>
+                        <span class="number">(0)</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="menu container">
+            <input type="checkbox" id="menu">
+            <label for="menu" class="menu-icon">
+                <img src="img/bars-solid.svg" class="menu-icon" alt="">
+            </label>
+            <ul class="navbar">
+                <li><a href="index.php">Inicio</a>
+                <li><a href="#">Categorias</a>
+                    <ul>
+                        <li><a href="" target="_blank">Inka Packs</a></li>
+                        <li><a href="">Farmacia</a></li>
+                        <li><a href="">Salud</a></li>
+                        <li><a href="">Mamá y Bebé</a></li>
+                        <li><a href="">Nutricion para Todos</a></li>
+                        <li><a href="">Cuidado Personal</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Farmacia</a></li>
+                <li><a href="#">Dermocosmetica</a></li>
+                <li><a href="bebe.html">Bebe</a></li>
+                <li><a class="icono-farmacia" href="#">Cuidado Personal</a></li>
+                <li><a class="icono-farmacia" href="Nosotros.html">Nosotros</a></li>
+                <li><a class="icono-farmacia" href="login.php">Iniciar Sesion</a></li>
+            </ul>
+        </nav>
+        <!-- Carrito de Compras -->
+        <div class="carrito" id="carrito">
+            <div class="header-carrito">
+                <h2>Tu Carrito</h2>
+            </div>
+            <div class="carrito-items">
+
+            </div>
+            <div class="carrito-total">
+                <div class="fila">
+                    <strong>Tu Total</strong>
+                    <span class="carrito-precio-total">
+                        S/0
+                    </span>
+                </div>
+                <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
+            </div>
+            <i class='bx bxs-x-square' id="close-carrito"></i>
+
+        </div>
+
+    </header>
+    <main>
+        <div class="nosotros-container">
+            <h2>Nosotros</h2>
+
+            <p>SALUD MEDIC, está comprometido con la industria peruana es por ello que día a día trabajamos para brindarles
+                junto con nuestro personal altamente calificado soluciones. Nuestro personal esta en constante
+                capacitación
+                con el fin de estar a la vanguardia de las necesidades del mercado.</p>
+
+            <p>Nuestra satisfacción es la satisfacción del cliente, de adquirir un buen producto, que cumpla con
+                todas las expectativas y necesidades de cada empresa complementándolo con el mejor servicio de
+                postventa.
+            </p>
+        </div>
+
+        <section class="nuestros-valores">
+            <div class="container-valores">
+                <div class="valores">
+                    <i class='bx bx-briefcase' class="icono-valor"></i>
+                    <span class="titulo-valor">Honestidad</span>
+                    <span class="descripcion-valor">Nos comportamos y expresamos con sinceridad y coherencia, respetando
+                        los valores de la justicia y la verdad.</span>
+                </div>
+                <div class="valores">
+                    <i class='bx bx-briefcase' class="icono-valor"></i>
+                    <span class="titulo-valor">Eficiencia</span>
+                    <span class="descripcion-valor">Cumplimos con la promesa al cliente optimizando el uso de los
+                        recursos disponibles.</span>
+                </div>
+                <div class="valores">
+                    <i class='bx bx-briefcase' class="icono-valor"></i>
+                    <span class="titulo-valor">Confianza</span>
+                    <span class="descripcion-valor">Ofrecemos lo que podemos cumplir y cumplimos lo que
+                        prometemos.</span>
+                </div>
+                <div class="valores">
+                    <i class='bx bx-briefcase' class="icono-valor"></i>
+                    <span class="titulo-valor">Innovación</span>
+                    <span class="descripcion-valor">Diseñamos y desarrollamos soluciones creativas conscientes de la
+                        necesidad de estar siempre un paso adelante.</span>
+                </div>
+                <div class="valores">
+                    <i class='bx bx-briefcase' class="icono-valor"></i>
+                    <span class="titulo-valor">Flexibilidad</span>
+                    <span class="descripcion-valor">Nos adaptamos a las necesidades de cada cliente, valorizando la
+                        propuesta de servicio.</span>
+                </div>
+                <div class="valores">
+                    <i class='bx bx-briefcase' class="icono-valor"></i>
+                    <span class="titulo-valor">Integridad</span>
+                    <span class="descripcion-valor">Actuamos de acuerdo con nuestros valores y creemos firmemente en la
+                        honestidad, el compromiso y el respeto mutuo.</span>
+                </div>
+            </div>
+        </section>
+
+        <div class="mision-vision">
+            <div class="mision">
+                <h2>Visión</h2>
+                <p>"Ser una empresa líder en soluciones integrales de aire comprimido y energía para los distintos
+                    sectores de industria y minería del mercado nacional e internacional. Brindando servicio de calidad
+                    a cada uno de nuestros clientes."</p>
+            </div>
+            <div class="vision">
+                <h2>Misión</h2>
+                <p>"Ser reconocidos por los productos y servicios brindados de alto valor, con una excelente atención al
+                    cliente superando expectativas en cada uno de los sectores que nos desarrollamos."</p>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+
+    <footer class="footer-container">
+        <div class="links">
+            <h4>Sobre Inkafarma</h4>
+            <ul>
+                <li><a href="">Catálogo del mes</a></li>
+                <li><a href="">Boticas 24 horas</a></li>
+                <li><a href="">Farmacia Vecina</a></li>
+                <li><a href="">Apoyo al Paciente Inkafarma</a></li>
+                <li><a href="">Productos Equivalentes</a></li>
+                <li><a href="">Cannabis Medicinal</a></li>
+                <li><a href="">Derechos Arco</a></li>
+                <li><a href="">Intercorp y socios estrategicos</a></li>
+                <li><a href="">Call Center - Términos y Condiciones</a></li>
+                <li><a href="">Inkaclub</a></li>
+
+            </ul>
+        </div>
+        <div class="links">
+            <h4>Inkafarma Digital</h4>
+            <ul>
+                <li><a href="">Blog Inkafarma</a></li>
+                <li><a href="">Legales de Campañas</a></li>
+                <li><a href="">Retiro en Tienda</a></li>
+                <li><a href="">Servicio Express</a></li>
+                <li><a href="">Zonas de cobertura</a></li>
+                <li><a href="">Términos y Condiciones Generales</a></li>
+                <li><a href="">Politicas de privacidad</a></li>
+                <li><a href="">Comprobante electrónico</a></li>
+                <li><a href="">WhatsApp - Términos y Condiciones</a></li>
+                <li><a href="">Terceros encargados de tratamiento</a></li>
+            </ul>
+        </div>
+        <div class="links">
+            <h4>Contáctanos</h4>
+            <ul>
+                <li><a href="">Preguntas Frecuentes</a></li>
+                <li><a href="">Plan de Referidos</a></li>
+                <li><a href="">Inkafono (Lima)</a></li>
+                <li><a href="">(511) 314 2020</a></li>
+            </ul>
+        </div>
+        <div class="links">
+            <h4>Síguenos</h4>
+            <div class="socials">
+                <a href="https://inkafarma.pe/">
+                    <div class="social">
+                        <img src="img/simbolo-de-la-aplicacion-de-facebook.png" alt="">
+                    </div>
+                </a>
+                <a href="">
+                    <div class="social">
+                        <img src="img/s2.svg" alt="">
+                    </div>
+                </a>
+                <a href="">
+                    <div class="social">
+                        <img src="img/s3.svg" alt="">
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </footer>
+    <script src="https://kit.fontawesome.com/81581fb069.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

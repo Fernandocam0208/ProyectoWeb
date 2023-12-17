@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+main {
+    background: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-logo i {
+    font-size: 2rem;
+    color: white;
+}
+
+.container-logo img {
+    width: 40px;
+}
+
+.customer-support i {
+    color: white;
+    font-size: 2rem;
+}
+
+.nosotros-container {
+    max-width: 660px;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+.nosotros-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 50px;
+    color: #000080;
+}
+
+.nosotros-container p {
+    line-height: 1.6;
+    text-align: justify;
+    color: #000080;
+}
+
+
+.nuestros-valores {
+    max-width: 1200px;
+    padding: 10px 0px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    /* oculto lo que queda fuera del .contenedor */
+    contain: paint;
+}
+
+.nuestros-valores .container-valores {
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 10px;
+    grid-row-gap: 25px;
+    /* width: 60%; */
+    width: 100%;
+    transition: .3s;
+   
+}
+
+.nuestros-valores .container-valores .valores {
+    background: white;
+    width: 320px;
+    height: 300px;
+    margin: auto;
+    padding: 15px 10px;
+    border-radius: 20px 20px 20px 20px;
+    transition: .3s;
+}
+
+.nuestros-valores .container-valores .valores i {
+    font-size: 5rem;
+    color: #000080;
+}
+
+.nuestros-valores .container-valores .valores:hover {
+    box-shadow: 0 0 10px #000080;
+    scale: 1.05;
+}
+
+.nuestros-valores .container-valores .valores .titulo-valor {
+    color: #000080;
+    display: block;
+    max-width: 200px;
+    padding: 15px 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.nuestros-valores .container-valores .valores .descripcion-valor {
+    color: #000080;
+    display: block;
+    text-align: 0;
+    font-size: 15px;
+    padding: 0px 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.mision-vision {
+    max-width: 660px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.mision-vision .mision {
+    padding: 20px 0;
+}
+
+.mision-vision .mision h2 {
+    font-size: 40px;
+    text-align: center;
+    color: #000080;
+
+}
+
+.mision-vision .vision {
+    padding: 30px 0;
+}
+
+.mision-vision .mision p {
+    color: #000080;
+}
+
+.mision-vision .vision h2 {
+    font-size: 40px;
+    text-align: center;
+    color: #000080;
+
+}
+
+.mision-vision .vision p {
+    color: #000080;
+}
